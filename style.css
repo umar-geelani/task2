@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    color: #444;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(bck.png);
+  }
+  
+  
+  h1 {
+    color: rgb(0, 0, 0);
+    font-size: 8rem;
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  
+  .input {
+    border: none;
+    font-size: 2rem;
+    color: #000000;
+    padding: 1rem 4.5rem;
+    display: block;
+    cursor: pointer;
+  }
+  
+  .input::placeholder {
+    color: #c4c4c4;
+  }
+  
+  
+  input[type="text"],
+  input[type="date"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    font-size: 15px;
+  }
+  
+  button {
+    display: block;
+    background-color: #ff0000;
+    color: white;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 26px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  #taskList {
+    margin-top: 20px;
+  }
+  
+  .task {
+    display: flex;
+    justify-content:space-between;   
+    padding: 10px;
+    border: 1px solid #f9f9f9;
+    margin-bottom: 10px;
+    background-color: silver;
+    border-radius: 4px;
+    font-weight: 600;
+    color: black;
+  }
+
+  .task span {
+    flex: 1;
+  }
+  
+  .task button {
+    background-color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 8px 10px;
+    transition: background-color 0.3s;
+  }
+  .task button:hover {
+    background-color: #ff0000;
+    color: white;
+  }
